@@ -15,6 +15,7 @@
 QLogin::QLogin(QWidget *parent) :
         QDialog(parent), ui(new Ui::QLogin) {
     ui->setupUi(this);
+    ui->inPassword->setEchoMode(QLineEdit::Password);
 }
 
 QLogin::~QLogin() {

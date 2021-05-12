@@ -11,7 +11,7 @@
 
 class Credit {
 public:
-    QString creditID;
+   QString creditID;
     QString creditorID;
     double creditValue;
     QDate dateStarts;

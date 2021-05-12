@@ -6,10 +6,10 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include "Manager.h"
-static const QString CREDITORS_DATA= "D:\\BillsManagementProject\\data\\creditors.txt";
-static const   QString CREDITS_DATA= "D:\\BillsManagementProject\\data\\credits.txt";
-static const QString PAYMENTS_DATA= "D:\\BillsManagementProject\\data\\payments.txt";
-static const QString USERS_DATA= "D:\\BillsManagementProject\\data\\users.txt";
+ const QString CREDITORS_DATA= "D:\\BillsManagementProject\\data\\creditors.txt";
+ const QString CREDITS_DATA= "D:\\BillsManagementProject\\data\\credits.txt";
+ const QString PAYMENTS_DATA= "D:\\BillsManagementProject\\data\\payments.txt";
+ const QString USERS_DATA= "D:\\BillsManagementProject\\data\\users.txt";
 User Manager::currentUser;
 
 
@@ -389,8 +389,4 @@ QString Manager::newID() {
     id.remove(QRegularExpression("{|}|-"));
     return id;
 }
-
-
-
-
 

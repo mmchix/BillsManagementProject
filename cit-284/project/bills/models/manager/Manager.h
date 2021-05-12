@@ -15,7 +15,6 @@ public:
     static User currentUser;
 
 
-
 public:
     static bool login(QString usernameORemail, QString password);
     static QList<Payment> getListPayment(QString creditID);
