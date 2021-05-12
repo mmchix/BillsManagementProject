@@ -6,10 +6,10 @@
 #include <QTextStream>
 #include <QMessageBox>
 #include "Manager.h"
-static const QString CREDITORS_DATA= "/Users/mac/CLionProjects/BillsManagementProject/data/creditors.txt";
-static const   QString CREDITS_DATA= "/Users/mac/CLionProjects/BillsManagementProject/data/credits.txt";
-static const QString PAYMENTS_DATA= "/Users/mac/CLionProjects/BillsManagementProject/data/payments.txt";
-static const QString USERS_DATA= "/Users/mac/CLionProjects/BillsManagementProject/data/users.txt";
+static const QString CREDITORS_DATA= "D:\\BillsManagementProject\\data\\creditors.txt";
+static const   QString CREDITS_DATA= "D:\\BillsManagementProject\\data\\credits.txt";
+static const QString PAYMENTS_DATA= "D:\\BillsManagementProject\\data\\payments.txt";
+static const QString USERS_DATA= "D:\\BillsManagementProject\\data\\users.txt";
 User Manager::currentUser;
 
 

@@ -5,6 +5,7 @@
 // You may need to build the project (run Qt uic code generator) to get "ui_QLogin.h" resolved
 
 #include <QCryptographicHash>
+#include <QMessageBox>
 #include "qlogin.h"
 #include "ui_QLogin.h"
 #include "../signup/qsignup.h"
@@ -33,5 +34,7 @@ void QLogin::on_btnLogin_clicked() {
         close();
         QCreditors *qCreditors = new QCreditors(this);
         qCreditors->exec();
+    }else{
+        QMessageBox::warning(this,"Error","Username and/or password are incorrect!");
     }
 }
